@@ -1,0 +1,26 @@
+{
+  "name": "DenoTSLearning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "tsc --watch --preserveWatchOutput",
+    "start": "deno run --allow-net dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wellisrite/DenoTSLearning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wellisrite/DenoTSLearning/issues"
+  },
+  "homepage": "https://github.com/wellisrite/DenoTSLearning#readme",
+  "devDependencies": {
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {}
+}
